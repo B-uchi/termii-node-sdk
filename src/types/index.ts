@@ -173,7 +173,7 @@ export interface SendVoiceTokenResponse {
 }
 
 export interface SendVoiceCallParams {
-  to: string;
+  phone_number: string;
   code: string;
 }
 

@@ -1,0 +1,22 @@
+# Source (consumers only need dist/)
+src/
+
+# Config & tooling
+tsconfig.json
+.eslintrc*
+.prettierrc*
+*.config.js
+*.config.ts
+
+# Dev & test
+__tests__/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Misc
+.DS_Store
+*.log
+.env
+.env.*
+EOF

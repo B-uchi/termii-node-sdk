@@ -1,0 +1,58 @@
+{
+  "name": "termii-node-sdk",
+  "version": "1.0.0",
+  "description": "A robust, fully-typed Node.js / TypeScript SDK for the Termii messaging API — SMS, OTP, WhatsApp, Voice, Campaigns and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "termii",
+    "sms",
+    "otp",
+    "one-time-password",
+    "messaging",
+    "whatsapp",
+    "voice",
+    "nigeria",
+    "africa",
+    "notification",
+    "sdk",
+    "typescript"
+  ],
+  "author": {
+    "name": "B-uchi",
+    "email": "ibumeano@gmail.com",
+    "url": "https://github.com/B-uchi"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/B-uchi/termii-node-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-uchi/termii-node-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/B-uchi/termii-node-sdk/issues"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
